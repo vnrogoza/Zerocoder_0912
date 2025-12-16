@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+telegram_bot.log
+bot/gigachat.log
+teleton/telegram_bot.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+telegram_messages.db
+
+# Telegram session files
+*.session
+telegram_session.session
+teleton/telegram_session.session
+
+# Flask
+flask/__pycache__/
+flask/instance/
+flask/.webassets-cache
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
